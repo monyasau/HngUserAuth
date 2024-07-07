@@ -1,7 +1,7 @@
 process.env.NODE_ENV = 'test';
 
 const request = require('supertest');
-const app = require('../app');
+const app = require('..//index');
 const { sequelize } = require('../config/database');
 
 beforeAll(async () => {
