@@ -13,7 +13,7 @@ const userRoutes = require('./routes/user');
 const app = express();
 
 // Set the port from environment variables or default to 3000
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 
 // Add support for Cross-Origin Resource Sharing (CORS)
 app.use(cors());
